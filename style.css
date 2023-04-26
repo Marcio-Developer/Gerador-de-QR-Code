@@ -1,0 +1,78 @@
+body{
+    display: flex;
+    font-family: 'Calibri', sans-serif;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(21, 125, 209), rgb(91, 174, 241) , rgb(135, 200, 253));
+    color: white;
+    height: 600px;
+}
+
+form{
+    margin: auto;
+    height: 30rem;
+    width: 20rem;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0 2px 2px rgb(104, 102, 102);
+}
+
+.heading{
+    text-align: center;
+    background-color: rgb(21, 125, 209);
+    font-size: 30px;
+    color: white;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    width: 100%;
+}
+
+#website{
+    width: 80%;
+    height: 30px;
+    outline: none;
+    background: gainsboro;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+label{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+input{
+    font-size: 18px;
+    transition: 0.3s;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.generateBtn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: rgb(21, 125, 209);
+    color: white;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.generateBtn:hover{
+    background-color: rgb(8, 139, 247);
+}
+
+@media only screen and (max-width: 600px){
+    form{
+        width: 17rem;
+    }
+
+}
